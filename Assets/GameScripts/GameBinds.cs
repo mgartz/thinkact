@@ -11,6 +11,7 @@ public class GameBinds : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Screen.showCursor = false;
 		isPressingUp = false;
 		isPressingDown = false;
 		isPressingLeft = false;
